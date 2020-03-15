@@ -118,7 +118,8 @@ figure {
   width: 300px;
   position: fixed;
   z-index: 1001;
-  background: #FF722C;
+  background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
+  /* background: #FF722C; old orange background */
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }

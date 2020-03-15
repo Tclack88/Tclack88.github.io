@@ -103,7 +103,9 @@ figure {
   width: 300px;
   position: fixed;
   z-index: 1001;
-    background-color: #D8EE59;
+  background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
+
+    /*background-color: #D8EE59;*/
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -116,7 +118,9 @@ figure {
       -o-transform: translateX(-300px);
       transform: translateX(-300px);
       padding-top: 4em;
-	  background-color: #D8EE59;
+      background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
+
+/*	  background-color: #D8EE59;*/
         height: auto;
       } }
   #colorlib-aside .author-img {
@@ -171,7 +175,7 @@ figure {
         text-transform: uppercase;
         letter-spacing: 1px; }
         #colorlib-aside #colorlib-main-menu ul li a {
-          color: rgba(0, 0, 0, 0.7);
+          color: rgba(0, 0, 0, 1);
           text-decoration: none;
           position: relative;
           padding: 10px 0;
@@ -188,6 +192,7 @@ figure {
             right: 0;
             background-color: #2c98f0;
             visibility: hidden;
+	    font-weight: bold;
             -webkit-transform: scaleX(0);
             -moz-transform: scaleX(0);
             -ms-transform: scaleX(0);
@@ -200,7 +205,8 @@ figure {
             transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
           #colorlib-aside #colorlib-main-menu ul li a:hover {
             text-decoration: none;
-            color: black; }
+            color: #9ddcff; }/*yellow; }
+            /*color: black; }*/
             #colorlib-aside #colorlib-main-menu ul li a:hover:after {
               visibility: visible;
               -webkit-transform: scaleX(1);
@@ -209,7 +215,8 @@ figure {
               -o-transform: scaleX(1);
               transform: scaleX(1); }
         #colorlib-aside #colorlib-main-menu ul li.active a {
-          color: #2c98f0; }
+          color: #9ddcff; }
+          /*color: #2c98f0; }*/
           #colorlib-aside #colorlib-main-menu ul li.active a:after {
             visibility: visible;
             -webkit-transform: scaleX(1);
@@ -397,7 +404,8 @@ body.offcanvas {
     -o-transform: translateX(0);
     transform: translateX(0);
     width: 300px;
-    background-color: #D8EE59;
+    background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
+    /*background-color: #D8EE59;*/
     z-index: 999;
     position: fixed; }
   body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
