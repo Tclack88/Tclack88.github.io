@@ -1631,3 +1631,7 @@ h1 {
   background: rgba(46, 123, 207, 0.5);
   padding: 1rem;
 }
+@media screen and (max-width: 768px){
+  .container{
+    flex-direction: column;
+  }
