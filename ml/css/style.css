@@ -1589,6 +1589,7 @@ footer{
 .button a{
   color: white;
   font-weight: bold;
+  transition: 0s;
 }
 .button {
   height: 30px;
@@ -1617,8 +1618,8 @@ h1 {
 /* Pattern styles */
 .container {
   display: flex;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  margin: 10rem 2rem 10rem 2rem;
+  border-style: groove;
 }
 
 .left-half {
@@ -1628,10 +1629,17 @@ h1 {
 
 .right-half {
   flex: 1;
-  background: rgba(46, 123, 207, 0.5);
   padding: 1rem;
 }
 @media screen and (max-width: 768px){
   .container{
     flex-direction: column;
+    margin: 10rem 0 10rem 0;
   }
+  .left-half{
+    margin: 1rem 0rem 0rem 0rem;
+  }
+  .right-half{
+    margin: 0rem;
+  }
+}
