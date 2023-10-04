@@ -58,21 +58,35 @@ hr {
     gap: 10px;
     list-style-type: none;
     align-items: center;
+    justify-content: space-between;
+    max-width: 420px;
+    padding-left: 0px;
 }
 
 .stand-out-list li{
-    border: #2a59a7 2px solid;
-    padding: 2px;
-    max-width: 200px;
+    border: #2a59a7 3px solid;
+    padding: 5px;
+    max-width: auto;
+    border-radius: 10px;
+    font-weight: lighter;
 }
 
 .blue {
     color: #2a59a7;
 }
 
+.no-bullet{
+    padding-left: 0px;
+    font-weight: lighter;
+}
 
 .no-bullet li {
     list-style-type: none;
     padding: 5px 0px;
     margin: 5px 0px;
+}
+
+.icon {
+    max-width: 20px;
+    padding-right: 10px;
 }
